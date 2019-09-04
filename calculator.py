@@ -1,4 +1,3 @@
-
 def add(x, y):
     pass
 
@@ -11,11 +10,11 @@ def divide(x, y):
     
 def multiply(x, y):
     pass
-    
-def pow(x, y):
-    pass
-    
+
 def square(x):  # x*x, or pow(x, 2)
+    pass
+
+def power(x, y):
     pass
     
 def sqrt(x):  # x*1/2, or pow(x, 1/2)
