@@ -1,21 +1,23 @@
 def add(x, y):
-    pass
+    return x + y
 
 def subtract(x, y):
-    pass
+    return x - y
 
 def divide(x, y):
-    # check if y is 0, there should be a test for that
-    pass
+    if y != 0:
+        return x / y
+    else:
+        return 'You cannot divide by Zero'
     
 def multiply(x, y):
-    pass
+    return x * y
 
 def square(x):  # x*x, or pow(x, 2)
-    pass
+    return x * x
 
 def power(x, y):
-    pass
+    return x ** y
     
 def sqrt(x):  # x*1/2, or pow(x, 1/2)
-    pass
+    return x ** .5
